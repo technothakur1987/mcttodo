@@ -1,0 +1,29 @@
+.taskSection{
+    min-height: 70vh;
+}
+.editSection{
+    position: absolute;
+    height: 100vh!important;
+    width: 100%;
+    background-color: rgb(40, 56, 56);
+    z-index: 1;
+    top: 0;
+    display: none;
+}
+#edtask{
+    min-height: 7vh;
+}
+ol, ul {
+    padding-left: 0rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+@media (max-width: 767.98px) { 
+    *{
+        font-size: smaller;
+    }
+    ol, ul {
+        padding-left: 0rem;
+    }
+}
